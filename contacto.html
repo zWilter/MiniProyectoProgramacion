@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Website with a contact Form 01</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+</head>
+<body class="bodycontacto">
+    
+    <div class="content">
+
+        <header>
+            <a class="logo" href="index.html"><img class="logo" src="Imagenes/logoadn.png" alt="img"></a>
+            <button id="botondemenu"><i class="fa-solid fa-2x fa-bars"></i></button>
+            <nav id="sidebar">
+                <ul>
+                    <li><a class="anav" href="index.html">Inicio</a></li>
+                    <li><a class="anav2">|</a></li>
+                    <li><a class="anav" href="noticias.html">Noticias</a></li>
+                    <li><a class="anav2">|</a></li>
+                    <li><a class="anav" href="contacto.html">Contacto</a></li>
+                </ul>
+                <div class="contador">
+                    <p class="pvistas">Visitas: <span id="contadorVisitas">0</span></p>
+                </div>
+            </nav>
+        </header>
+
+        <div class="contact-wrapper animated bounceInUp">
+            <div class="contact-form">
+                <h3>Contact us</h3>
+                <form action="">
+                    <p>
+                        <label>Nombre</label>
+                        <input type="text" name="nombre">
+                    </p>
+                    <p>
+                        <label>Email</label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label>Telefono</label>
+                        <input type="tel" name="telefono">
+                    </p>
+                    <p>
+                        <label>Razon del mensaje</label>
+                        <input type="text" name="razon">
+                    </p>
+                    <p class="block">
+                       <label>Mensaje</label> 
+                        <textarea name="mensaje" rows="3"></textarea>
+                    </p>
+                    <p class="block">
+                        <button>
+                            Contactar
+                        </button>
+                    </p>
+                </form>
+            </div>
+            <div class="contact-info">
+                <img class="logo" src="Imagenes/logoadn.png" alt="img">
+                <h2>¿Que problema podemos solucinar por ti?</h2>
+                <p>Contactanos</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
